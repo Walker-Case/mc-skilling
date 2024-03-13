@@ -1,0 +1,34 @@
+{
+  "item": "minecraft:bamboo_sapling",
+  "icon": {
+    "icon": "minecraft:",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": false,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:farming": 80.0,
+        "skilling:forestry": 10.0
+      },
+      "requirements": {
+        "skilling:farming": 80,
+        "skilling:forestry": 30
+      }
+    },
+    {
+      "action": "minecraft:place_block",
+      "xp": {
+        "skilling:farming": 80.0,
+        "skilling:forestry": 10.0
+      },
+      "requirements": {
+        "skilling:farming": 80,
+        "skilling:forestry": 30
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:wither",
+  "icon": {
+    "icon": "minecraft:wither",
+    "type": "entity",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 6
+  },
+  "actions": [
+    {
+      "action": "minecraft:killed",
+      "xp": {
+        "skilling:combat": 40.0
+      },
+      "requirements": {
+        "skilling:combat": 0
+      }
+    }
+  ]
+}

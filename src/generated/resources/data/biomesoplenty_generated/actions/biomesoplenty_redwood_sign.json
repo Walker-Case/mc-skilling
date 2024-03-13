@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "skilling:construction": 12
+      },
+      "xp": {
+        "skilling:construction": 3.7
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:construction": 12
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "biomesoplenty:redwood_sign",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "biomesoplenty:redwood_sign"
+}

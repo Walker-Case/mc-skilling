@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "skilling:crafting": 120,
+        "skilling:forestry": 120
+      },
+      "xp": {
+        "skilling:crafting": 4.5125,
+        "skilling:forestry": 4.5125
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "biomesoplenty:hellbark_planks",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "biomesoplenty:hellbark_planks"
+}

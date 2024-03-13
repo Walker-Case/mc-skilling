@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:obsidian",
+  "icon": {
+    "icon": "minecraft:obsidian",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:mining": 10.0,
+        "skilling:exploring": 5.0
+      },
+      "requirements": {
+        "skilling:mining": 50,
+        "skilling:exploring": 50
+      }
+    },
+    {
+      "action": "minecraft:place_block",
+      "requirements": {
+        "skilling:exploring": 50,
+        "skilling:mining": 50
+      }
+    }
+  ]
+}

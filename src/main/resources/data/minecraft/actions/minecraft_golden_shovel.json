@@ -1,0 +1,23 @@
+{
+  "item": "minecraft:golden_shovel",
+  "icon": {
+    "icon": "minecraft:golden_shovel",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.6,
+        "skilling:smithing": 0.3
+      },
+      "requirements": {
+        "skilling:crafting": 30,
+        "skilling:smithing": 42
+      }
+    }
+  ]
+}

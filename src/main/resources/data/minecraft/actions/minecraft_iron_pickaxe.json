@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:iron_pickaxe",
+  "icon": {
+    "icon": "minecraft:iron_pickaxe",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.4,
+        "skilling:smithing": 0.2
+      },
+      "requirements": {
+        "skilling:crafting": 20,
+        "skilling:mining": 30,
+        "skilling:smithing": 21
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:mining": 30
+      }
+    }
+  ]
+}

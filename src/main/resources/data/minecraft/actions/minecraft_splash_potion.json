@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:splash_potion",
+  "icon": {
+    "icon": "minecraft:splash_potion",
+    "type": "item",
+    "potion": "minecraft:water",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 1.0
+      },
+      "requirements": {
+        "skilling:alchemy": 70
+      }
+    }
+  ]
+}

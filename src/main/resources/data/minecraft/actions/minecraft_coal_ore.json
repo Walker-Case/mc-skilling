@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:coal_ore",
+  "icon": {
+    "icon": "minecraft:coal_ore",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:mining": 0.2
+      },
+      "requirements": {
+        "skilling:mining": 5
+      }
+    }
+  ]
+}

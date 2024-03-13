@@ -1,0 +1,23 @@
+{
+  "item": "minecraft:spyglass",
+  "icon": {
+    "icon": "minecraft:spyglass",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 2.0,
+        "skilling:exploring": 2.0
+      },
+      "requirements": {
+        "skilling:crafting": 20,
+        "skilling:exploring": 25
+      }
+    }
+  ]
+}

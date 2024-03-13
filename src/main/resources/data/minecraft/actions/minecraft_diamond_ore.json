@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:diamond_ore",
+  "icon": {
+    "icon": "minecraft:diamond_ore",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:mining": 1.8
+      },
+      "requirements": {
+        "skilling:mining": 90
+      }
+    }
+  ]
+}

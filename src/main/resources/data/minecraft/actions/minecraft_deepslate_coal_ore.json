@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:deepslate_coal_ore",
+  "icon": {
+    "icon": "minecraft:deepslate_coal_ore",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:mining": 5.0
+      },
+      "requirements": {
+        "skilling:mining": 40
+      }
+    }
+  ]
+}

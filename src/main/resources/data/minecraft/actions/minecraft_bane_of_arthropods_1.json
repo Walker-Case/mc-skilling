@@ -1,0 +1,24 @@
+{
+  "item": "minecraft:bane_of_arthropods_1",
+  "icon": {
+    "icon": "minecraft:enchanted_book",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8,
+    "enchantments": {
+      "minecraft:bane_of_arthropods": 1
+    }
+  },
+  "actions": [
+    {
+      "action": "minecraft:enchanting",
+      "xp": {
+        "skilling:enchanting": 2.5
+      },
+      "requirements": {
+        "skilling:enchanting": 25
+      }
+    }
+  ]
+}

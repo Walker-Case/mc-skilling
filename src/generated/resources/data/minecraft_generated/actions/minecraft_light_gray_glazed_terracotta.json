@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "skilling:construction": 77
+      },
+      "xp": {
+        "skilling:construction": 23.2
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:construction": 77
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "minecraft:light_gray_glazed_terracotta",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "minecraft:light_gray_glazed_terracotta"
+}

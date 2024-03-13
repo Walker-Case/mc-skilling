@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "action": "skilling:chopping",
+      "requirements": {
+        "skilling:forestry": 10
+      },
+      "xp": {
+        "skilling:forestry": 3.1
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "minecraft:spruce_log",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "minecraft:spruce_log"
+}

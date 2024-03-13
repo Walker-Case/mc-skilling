@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "skilling:construction": 15
+      },
+      "xp": {
+        "skilling:construction": 4.59
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:construction": 15
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "minecraft:birch_slab",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "minecraft:birch_slab"
+}

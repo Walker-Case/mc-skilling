@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:golden_apple",
+  "icon": {
+    "icon": "minecraft:golden_apple",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:cooking": 8.0
+      },
+      "requirements": {
+        "skilling:cooking": 80
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 40
+      }
+    }
+  ]
+}

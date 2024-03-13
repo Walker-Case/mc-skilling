@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "skilling:construction": 20
+      },
+      "xp": {
+        "skilling:construction": 6.1
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:construction": 20
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "minecraft:yellow_bed",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "minecraft:yellow_bed"
+}

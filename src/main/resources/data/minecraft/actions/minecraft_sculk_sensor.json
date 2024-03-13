@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:sculk_sensor",
+  "icon": {
+    "icon": "minecraft:sculk_sensor",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 6.5
+      },
+      "requirements": {
+        "skilling:engineering": 65
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:engineering": 65
+      }
+    }
+  ]
+}

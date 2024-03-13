@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "action": "skilling:chopping",
+      "requirements": {
+        "skilling:forestry": 100
+      },
+      "xp": {
+        "skilling:forestry": 30.1
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "biomesoplenty:magic_log",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "biomesoplenty:magic_log"
+}

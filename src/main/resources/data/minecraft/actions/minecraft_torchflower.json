@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:torchflower",
+  "icon": {
+    "icon": "minecraft:torchflower",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:farming": 75.0
+      },
+      "requirements": {
+        "skilling:farming": 75
+      }
+    },
+    {
+      "action": "minecraft:interact_entity",
+      "xp": {
+        "skilling:farming": 75.0
+      },
+      "requirements": {
+        "skilling:farming": 75
+      }
+    }
+  ]
+}

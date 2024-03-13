@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "skilling:construction": 2
+      },
+      "xp": {
+        "skilling:construction": 0.7
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:construction": 2
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "minecraft:oak_fence",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "minecraft:oak_fence"
+}

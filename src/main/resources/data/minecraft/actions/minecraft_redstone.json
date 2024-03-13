@@ -1,0 +1,18 @@
+{
+  "item": "minecraft:redstone",
+  "icon": {
+    "icon": "minecraft:redstone",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:place_block",
+      "requirements": {
+        "skilling:engineering": 11
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "item": "minecraft:aqua_affinity_1",
+  "icon": {
+    "icon": "minecraft:enchanted_book",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8,
+    "enchantments": {
+      "minecraft:aqua_affinity": 1
+    }
+  },
+  "actions": [
+    {
+      "action": "minecraft:enchanting",
+      "xp": {
+        "skilling:enchanting": 10.0
+      },
+      "requirements": {
+        "skilling:enchanting": 20,
+        "skilling:exploring": 30
+      }
+    }
+  ]
+}

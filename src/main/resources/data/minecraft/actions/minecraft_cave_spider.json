@@ -1,0 +1,18 @@
+{
+  "item": "minecraft:cave_spider",
+  "icon": {
+    "icon": "minecraft:cave_spider",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:killed",
+      "xp": {
+        "skilling:combat": 0.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:target",
+  "icon": {
+    "icon": "minecraft:target",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 5.6
+      },
+      "requirements": {
+        "skilling:engineering": 56
+      }
+    },
+    {
+      "action": "minecraft:place_block",
+      "requirements": {
+        "skilling:engineering": 56
+      }
+    }
+  ]
+}

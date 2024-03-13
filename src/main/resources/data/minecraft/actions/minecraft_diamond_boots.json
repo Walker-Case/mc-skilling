@@ -1,0 +1,40 @@
+{
+  "item": "minecraft:diamond_boots",
+  "icon": {
+    "icon": "minecraft:diamond_boots",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smithing",
+      "xp": {
+        "skilling:smithing": 2.0,
+        "skilling:crafting": 1.0
+      },
+      "requirements": {
+        "skilling:smithing": 86,
+        "skilling:crafting": 60
+      }
+    },
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 5.0,
+        "skilling:smithing": 2.5
+      },
+      "requirements": {
+        "skilling:crafting": 60,
+        "skilling:smithing": 86
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 80
+      }
+    }
+  ]
+}

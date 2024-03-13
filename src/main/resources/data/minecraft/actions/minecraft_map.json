@@ -1,0 +1,40 @@
+{
+  "item": "minecraft:map",
+  "icon": {
+    "icon": "minecraft:map",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:exploring": 10.0,
+        "skilling:crafting": 2.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    },
+    {
+      "action": "minecraft:map_update",
+      "xp": {
+        "skilling:exploring": 0.01
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    },
+    {
+      "action": "minecraft:interact_item",
+      "xp": {
+        "skilling:exploring": 50.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "item": "minecraft:ender_eye",
+  "icon": {
+    "icon": "minecraft:ender_eye",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 50.0,
+        "skilling:exploring": 100.0
+      },
+      "requirements": {
+        "skilling:crafting": 100,
+        "skilling:exploring": 100,
+        "skilling:combat": 100
+      }
+    },
+    {
+      "action": "minecraft:interact_item",
+      "requirements": {
+        "skilling:exploring": 100,
+        "skilling:combat": 100
+      }
+    }
+  ]
+}

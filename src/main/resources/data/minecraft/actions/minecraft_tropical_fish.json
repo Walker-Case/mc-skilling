@@ -1,0 +1,31 @@
+{
+  "item": "minecraft:tropical_fish",
+  "icon": {
+    "icon": "minecraft:tropical_fish",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:fishing",
+      "xp": {
+        "skilling:fishing": 70.0
+      },
+      "requirements": {
+        "skilling:fishing": 70
+      }
+    },
+    {
+      "action": "minecraft:killed",
+      "xp": {
+        "skilling:fishing": 20.0,
+        "skilling:combat": 0.4
+      },
+      "requirements": {
+        "skilling:fishing": 70
+      }
+    }
+  ]
+}

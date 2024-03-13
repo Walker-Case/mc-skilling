@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:mushroom_fields",
+  "icon": {
+    "icon": "minecraft:red_mushroom",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 5000.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

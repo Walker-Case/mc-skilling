@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:comparator",
+  "icon": {
+    "icon": "minecraft:comparator",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 4.4
+      },
+      "requirements": {
+        "skilling:engineering": 44
+      }
+    },
+    {
+      "action": "minecraft:interact_item",
+      "requirements": {
+        "skilling:engineering": 44
+      }
+    }
+  ]
+}

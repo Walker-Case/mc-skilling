@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:hopper_minecart",
+  "icon": {
+    "icon": "minecraft:hopper_minecart",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 3.9
+      },
+      "requirements": {
+        "skilling:engineering": 39
+      }
+    },
+    {
+      "action": "minecraft:interact_item",
+      "requirements": {
+        "skilling:engineering": 39
+      }
+    }
+  ]
+}

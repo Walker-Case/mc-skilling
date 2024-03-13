@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:curse_of_vanishing_1",
+  "icon": {
+    "icon": "minecraft:enchanted_book",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:enchanting",
+      "xp": {
+        "skilling:enchanting": 60.0
+      },
+      "requirements": {
+        "skilling:enchanting": 60
+      }
+    }
+  ]
+}

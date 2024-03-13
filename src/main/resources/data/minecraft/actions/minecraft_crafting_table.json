@@ -1,0 +1,33 @@
+{
+  "item": "minecraft:crafting_table",
+  "icon": {
+    "icon": "minecraft:crafting_table",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:single_player_use_block",
+      "requirements": {
+        "skilling:crafting": 0
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:crafting": 1
+      }
+    },
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.1
+      },
+      "requirements": {
+        "skilling:crafting": 1
+      }
+    }
+  ]
+}

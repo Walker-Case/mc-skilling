@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:ender_dragon",
+  "icon": {
+    "icon": "minecraft:ender_dragon",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 2
+  },
+  "actions": [
+    {
+      "action": "minecraft:killed",
+      "xp": {
+        "skilling:combat": 260.0
+      },
+      "requirements": {
+        "skilling:combat": 0
+      }
+    }
+  ]
+}

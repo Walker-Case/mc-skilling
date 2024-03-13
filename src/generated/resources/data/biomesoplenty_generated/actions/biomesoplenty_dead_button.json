@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "skilling:engineering": 26
+      },
+      "xp": {
+        "skilling:engineering": 7.9
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:engineering": 26
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "biomesoplenty:dead_button",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "biomesoplenty:dead_button"
+}

@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:golden_sword",
+  "icon": {
+    "icon": "minecraft:golden_sword",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.6,
+        "skilling:smithing": 0.3
+      },
+      "requirements": {
+        "skilling:crafting": 40,
+        "skilling:combat": 50,
+        "skilling:smithing": 43
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 50
+      }
+    }
+  ]
+}

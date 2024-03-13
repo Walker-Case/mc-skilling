@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:lightning_rod",
+  "icon": {
+    "icon": "minecraft:lightning_rod",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 5.8
+      },
+      "requirements": {
+        "skilling:engineering": 58
+      }
+    },
+    {
+      "action": "minecraft:place_block",
+      "requirements": {
+        "skilling:engineering": 58
+      }
+    }
+  ]
+}

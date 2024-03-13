@@ -1,0 +1,40 @@
+{
+  "item": "minecraft:golden_leggings",
+  "icon": {
+    "icon": "minecraft:golden_leggings",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smithing",
+      "xp": {
+        "skilling:smithing": 0.8,
+        "skilling:crafting": 0.4
+      },
+      "requirements": {
+        "skilling:smithing": 46,
+        "skilling:crafting": 40
+      }
+    },
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 1.8,
+        "skilling:smithing": 0.6
+      },
+      "requirements": {
+        "skilling:crafting": 40,
+        "skilling:smithing": 46
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 50
+      }
+    }
+  ]
+}

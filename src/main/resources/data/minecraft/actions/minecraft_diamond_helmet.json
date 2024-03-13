@@ -1,0 +1,40 @@
+{
+  "item": "minecraft:diamond_helmet",
+  "icon": {
+    "icon": "minecraft:diamond_helmet",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smithing",
+      "xp": {
+        "skilling:smithing": 2.0,
+        "skilling:crafting": 1.0
+      },
+      "requirements": {
+        "skilling:smithing": 80,
+        "skilling:crafting": 60
+      }
+    },
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 5.0,
+        "skilling:smithing": 2.5
+      },
+      "requirements": {
+        "skilling:crafting": 60,
+        "skilling:smithing": 80
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 80
+      }
+    }
+  ]
+}

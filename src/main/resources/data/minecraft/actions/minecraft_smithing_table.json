@@ -1,0 +1,23 @@
+{
+  "item": "minecraft:smithing_table",
+  "icon": {
+    "icon": "minecraft:smithing_table",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:smithing": 10.0,
+        "skilling:crafting": 5.0
+      },
+      "requirements": {
+        "skilling:smithing": 90,
+        "skilling:crafting": 80
+      }
+    }
+  ]
+}

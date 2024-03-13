@@ -1,0 +1,36 @@
+{
+  "item": "minecraft:conduit",
+  "icon": {
+    "icon": "minecraft:conduit",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 4.0,
+        "skilling:exploring": 6.0,
+        "skilling:alchemy": 5.0,
+        "skilling:engineering": 6.0
+      },
+      "requirements": {
+        "skilling:crafting": 50,
+        "skilling:exploring": 80,
+        "skilling:alchemy": 70,
+        "skilling:engineering": 95
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:crafting": 50,
+        "skilling:exploring": 80,
+        "skilling:alchemy": 70,
+        "skilling:engineering": 95
+      }
+    }
+  ]
+}

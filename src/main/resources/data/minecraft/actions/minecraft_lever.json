@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:lever",
+  "icon": {
+    "icon": "minecraft:lever",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 0.5
+      },
+      "requirements": {
+        "skilling:engineering": 5
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:engineering": 5
+      }
+    }
+  ]
+}

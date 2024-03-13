@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:copper_ingot",
+  "icon": {
+    "icon": "minecraft:copper_ingot",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:blasting",
+      "xp": {
+        "skilling:smithing": 0.1
+      },
+      "requirements": {
+        "skilling:smithing": 10
+      }
+    },
+    {
+      "action": "minecraft:smelting",
+      "xp": {
+        "skilling:smithing": 0.2
+      },
+      "requirements": {
+        "skilling:smithing": 10
+      }
+    }
+  ]
+}

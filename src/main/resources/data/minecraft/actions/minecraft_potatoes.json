@@ -1,0 +1,39 @@
+{
+  "item": "minecraft:potatoes",
+  "icon": {
+    "icon": "minecraft:",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": false,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:farming": 20.0
+      },
+      "requirements": {
+        "skilling:farming": 20
+      }
+    },
+    {
+      "action": "minecraft:place_block",
+      "xp": {
+        "skilling:farming": 20.0
+      },
+      "requirements": {
+        "skilling:farming": 20
+      }
+    },
+    {
+      "action": "minecraft:interact_entity",
+      "xp": {
+        "skilling:farming": 20.0
+      },
+      "requirements": {
+        "skilling:farming": 20
+      }
+    }
+  ]
+}

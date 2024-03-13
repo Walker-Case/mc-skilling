@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "action": "skilling:chopping",
+      "requirements": {
+        "skilling:forestry": 30
+      },
+      "xp": {
+        "skilling:forestry": 9.1
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "minecraft:jungle_log",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "minecraft:jungle_log"
+}

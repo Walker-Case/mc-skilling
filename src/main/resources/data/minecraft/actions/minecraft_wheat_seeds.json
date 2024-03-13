@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:wheat_seeds",
+  "icon": {
+    "icon": "minecraft:wheat_seeds",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:interact_entity",
+      "xp": {
+        "skilling:farming": 30.0
+      },
+      "requirements": {
+        "skilling:farming": 30
+      }
+    },
+    {
+      "action": "minecraft:interact_item",
+      "xp": {
+        "skilling:farming": 0.0
+      },
+      "requirements": {
+        "skilling:farming": 0
+      }
+    }
+  ]
+}

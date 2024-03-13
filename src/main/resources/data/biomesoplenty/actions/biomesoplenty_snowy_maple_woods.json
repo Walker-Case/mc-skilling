@@ -1,0 +1,25 @@
+{
+  "item": "biomesoplenty:snowy_maple_woods",
+  "icon": {
+    "displayName": {
+      "name": "biomesoplenty:snowy_maple_woods",
+      "translated": true
+    },
+    "icon": "biomesoplenty:maple_leaves",
+    "type": "block",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 100.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

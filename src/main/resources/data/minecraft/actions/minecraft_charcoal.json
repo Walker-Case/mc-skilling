@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:charcoal",
+  "icon": {
+    "icon": "minecraft:charcoal",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smelting",
+      "xp": {
+        "skilling:smithing": 0.1
+      },
+      "requirements": {
+        "skilling:smithing": 0
+      }
+    }
+  ]
+}

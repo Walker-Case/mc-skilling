@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:beetroot_soup",
+  "icon": {
+    "icon": "minecraft:beetroot_soup",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smoking",
+      "xp": {
+        "skilling:cooking": 0.35
+      },
+      "requirements": {
+        "skilling:cooking": 10
+      }
+    },
+    {
+      "action": "skilling:cooking",
+      "xp": {
+        "skilling:cooking": 0.7
+      },
+      "requirements": {
+        "skilling:cooking": 10
+      }
+    }
+  ]
+}

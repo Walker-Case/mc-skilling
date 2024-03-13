@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:diamond_pickaxe",
+  "icon": {
+    "icon": "minecraft:diamond_pickaxe",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.8,
+        "skilling:smithing": 0.4
+      },
+      "requirements": {
+        "skilling:crafting": 60,
+        "skilling:mining": 90,
+        "skilling:smithing": 88
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:mining": 90
+      }
+    }
+  ]
+}

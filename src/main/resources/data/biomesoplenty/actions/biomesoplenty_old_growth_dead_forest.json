@@ -1,0 +1,25 @@
+{
+  "item": "biomesoplenty:old_growth_dead_forest",
+  "icon": {
+    "displayName": {
+      "name": "biomesoplenty:old_growth_dead_forest",
+      "translated": true
+    },
+    "icon": "biomesoplenty:dead_log",
+    "type": "block",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 100.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

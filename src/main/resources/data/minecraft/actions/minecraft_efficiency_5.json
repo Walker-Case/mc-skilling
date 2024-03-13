@@ -1,0 +1,24 @@
+{
+  "item": "minecraft:efficiency_5",
+  "icon": {
+    "icon": "minecraft:enchanted_book",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8,
+    "enchantments": {
+      "minecraft:efficiency": 5
+    }
+  },
+  "actions": [
+    {
+      "action": "minecraft:enchanting",
+      "xp": {
+        "skilling:enchanting": 6.0
+      },
+      "requirements": {
+        "skilling:enchanting": 60
+      }
+    }
+  ]
+}

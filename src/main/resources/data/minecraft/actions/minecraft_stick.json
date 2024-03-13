@@ -1,0 +1,31 @@
+{
+  "item": "minecraft:stick",
+  "icon": {
+    "icon": "minecraft:stick",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:forestry": 0.05,
+        "skilling:crafting": 0.1
+      },
+      "requirements": {
+        "skilling:crafting": 0
+      }
+    },
+    {
+      "action": "minecraft:fishing",
+      "xp": {
+        "skilling:fishing": 0.2
+      },
+      "requirements": {
+        "skilling:fishing": 0
+      }
+    }
+  ]
+}

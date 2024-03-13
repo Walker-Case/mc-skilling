@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "action": "skilling:chopping",
+      "requirements": {
+        "skilling:forestry": 120
+      },
+      "xp": {
+        "skilling:forestry": 36.1
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "biomesoplenty:hellbark_log",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "biomesoplenty:hellbark_log"
+}

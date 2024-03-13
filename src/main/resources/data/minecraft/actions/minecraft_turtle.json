@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:turtle",
+  "icon": {
+    "icon": "minecraft:turtle",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:killed",
+      "xp": {
+        "skilling:combat": 0.1
+      },
+      "requirements": {
+        "skilling:combat": 0
+      }
+    }
+  ]
+}

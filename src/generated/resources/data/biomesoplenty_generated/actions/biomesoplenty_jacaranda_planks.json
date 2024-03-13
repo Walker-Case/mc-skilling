@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "skilling:crafting": 60,
+        "skilling:forestry": 60
+      },
+      "xp": {
+        "skilling:crafting": 2.2625,
+        "skilling:forestry": 2.2625
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "biomesoplenty:jacaranda_planks",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "biomesoplenty:jacaranda_planks"
+}

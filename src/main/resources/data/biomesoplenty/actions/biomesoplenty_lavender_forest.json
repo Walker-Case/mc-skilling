@@ -1,0 +1,25 @@
+{
+  "item": "biomesoplenty:lavender_forest",
+  "icon": {
+    "displayName": {
+      "name": "biomesoplenty:lavender_forest",
+      "translated": true
+    },
+    "icon": "biomesoplenty:lavender",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 500.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

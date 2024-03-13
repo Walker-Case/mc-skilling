@@ -1,0 +1,29 @@
+{
+  "item": "minecraft:netherite_leggings",
+  "icon": {
+    "icon": "minecraft:netherite_leggings",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smithing",
+      "xp": {
+        "skilling:smithing": 25.0,
+        "skilling:crafting": 10.0
+      },
+      "requirements": {
+        "skilling:smithing": 100,
+        "skilling:crafting": 90
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 100
+      }
+    }
+  ]
+}

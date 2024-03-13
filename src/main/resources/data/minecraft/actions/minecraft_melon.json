@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:melon",
+  "icon": {
+    "icon": "minecraft:melon",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:farming": 60.0
+      },
+      "requirements": {
+        "skilling:farming": 60
+      }
+    }
+  ]
+}

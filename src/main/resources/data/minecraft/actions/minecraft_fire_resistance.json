@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:fire_resistance",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:fire_resistance",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 0.82
+      },
+      "requirements": {
+        "skilling:alchemy": 42
+      }
+    }
+  ]
+}

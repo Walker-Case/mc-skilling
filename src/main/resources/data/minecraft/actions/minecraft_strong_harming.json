@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:strong_harming",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:strong_harming",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 4.2
+      },
+      "requirements": {
+        "skilling:alchemy": 81
+      }
+    }
+  ]
+}

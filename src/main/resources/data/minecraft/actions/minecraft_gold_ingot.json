@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:gold_ingot",
+  "icon": {
+    "icon": "minecraft:gold_ingot",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:blasting",
+      "xp": {
+        "skilling:smithing": 0.4
+      },
+      "requirements": {
+        "skilling:smithing": 30
+      }
+    },
+    {
+      "action": "minecraft:smelting",
+      "xp": {
+        "skilling:smithing": 0.8
+      },
+      "requirements": {
+        "skilling:smithing": 30
+      }
+    }
+  ]
+}

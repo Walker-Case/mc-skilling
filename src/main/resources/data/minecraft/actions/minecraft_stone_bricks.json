@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:stone_bricks",
+  "icon": {
+    "icon": "minecraft:stone_bricks",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:construction": 0.5
+      },
+      "requirements": {
+        "skilling:construction": 5
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:construction": 5
+      }
+    }
+  ]
+}

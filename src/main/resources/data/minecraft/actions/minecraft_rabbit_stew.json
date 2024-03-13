@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:rabbit_stew",
+  "icon": {
+    "icon": "minecraft:rabbit_stew",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smoking",
+      "xp": {
+        "skilling:cooking": 1.5
+      },
+      "requirements": {
+        "skilling:cooking": 35
+      }
+    },
+    {
+      "action": "skilling:cooking",
+      "xp": {
+        "skilling:cooking": 3.5
+      },
+      "requirements": {
+        "skilling:cooking": 35
+      }
+    }
+  ]
+}

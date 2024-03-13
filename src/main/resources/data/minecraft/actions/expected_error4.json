@@ -1,0 +1,15 @@
+{
+  "item": "expected:error4",
+  "icon": {
+    "icon": "expected:error4",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "expected:error"
+    }
+  ]
+}

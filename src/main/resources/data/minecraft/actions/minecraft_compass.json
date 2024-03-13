@@ -1,0 +1,22 @@
+{
+  "item": "minecraft:compass",
+  "icon": {
+    "icon": "minecraft:compass",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "skilling:crafting",
+      "xp": {
+        "skilling:exploring": 15.0
+      },
+      "requirements": {
+        "skilling:crafting": 40,
+        "skilling:exploring": 50
+      }
+    }
+  ]
+}

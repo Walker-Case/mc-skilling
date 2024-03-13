@@ -1,0 +1,24 @@
+{
+  "item": "minecraft:sharpness_5",
+  "icon": {
+    "icon": "minecraft:enchanted_book",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8,
+    "enchantments": {
+      "minecraft:sharpness": 5
+    }
+  },
+  "actions": [
+    {
+      "action": "minecraft:enchanting",
+      "xp": {
+        "skilling:enchanting": 50.0
+      },
+      "requirements": {
+        "skilling:enchanting": 95
+      }
+    }
+  ]
+}

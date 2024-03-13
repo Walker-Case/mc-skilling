@@ -1,0 +1,252 @@
+{
+  "skilling:alchemy": {
+    "maxlevel": 256,
+    "icon": {
+      "icon": "minecraft:brewing_stand",
+      "type": "block",
+      "skillbookVisible": true
+    },
+    "requirements": {
+      "skilling:exploring": 50
+    },
+    "fireworks": {
+      "primary": [
+        "0xE31717",
+        "0x2BD0B0"
+      ],
+      "secondary": [
+        "0x12C0CC"
+      ]
+    }
+  },
+  "skilling:combat": {
+    "maxlevel": 100,
+    "icon": {
+      "icon": "minecraft:diamond_sword",
+      "type": "item",
+      "skillbookVisible": true
+    },
+    "fireworks": {
+      "primary": [
+        "0xE31717",
+        "0x2BD0B0"
+      ],
+      "secondary": [
+        "0x12C0CC"
+      ]
+    }
+  },
+  "skilling:cooking": {
+    "maxlevel": 256,
+    "icon": {
+      "icon": "minecraft:rabbit_stew",
+      "type": "item",
+      "skillbookVisible": true
+    },
+    "requirements": {
+      "skilling:crafting": 10,
+      "skilling:smithing": 5
+    },
+    "fireworks": {
+      "primary": [
+        "0xD29A12",
+        "0x3CD212"
+      ],
+      "secondary": [
+        "0x3CD212"
+      ]
+    }
+  },
+  "skilling:construction": {
+    "maxlevel": 256,
+    "icon": {
+      "icon": "minecraft:stone_bricks",
+      "type": "block",
+      "skillbookVisible": true
+    },
+    "requirements": {
+      "skilling:crafting": 10
+    },
+    "fireworks": {
+      "primary": [
+        "0xBC871A",
+        "0xFC0303"
+      ],
+      "secondary": [
+        "0xFC0303"
+      ]
+    }
+  },
+  "skilling:crafting": {
+    "maxlevel": 100,
+    "xpModifier": 1.0,
+    "icon": {
+      "icon": "minecraft:crafting_table",
+      "type": "block",
+      "skillbookVisible": true
+    },
+    "fireworks": {
+      "primary": [
+        "0x5012D2",
+        "0x58389C"
+      ],
+      "secondary": [
+        "0x58389C"
+      ]
+    }
+  },
+  "skilling:enchanting": {
+    "maxlevel": 256,
+    "icon": {
+      "icon": "minecraft:enchanting_table",
+      "type": "block",
+      "skillbookVisible": true
+    },
+    "requirements": {
+      "skilling:exploring": 50
+    },
+    "fireworks": {
+      "primary": [
+        "0x8F0A62",
+        "0xCC6BAB"
+      ],
+      "secondary": [
+        "0xCC6BAB"
+      ]
+    }
+  },
+  "skilling:engineering": {
+    "maxlevel": 120,
+    "icon": {
+      "icon": "minecraft:minecart",
+      "type": "item",
+      "skillbookVisible": true
+    },
+    "requirements": {
+      "skilling:crafting": 60,
+      "skilling:construction": 40,
+      "skilling:exploring": 40
+    },
+    "fireworks": {
+      "primary": [
+        "0xE31717",
+        "0x2BD0B0"
+      ],
+      "secondary": [
+        "0x12C0CC"
+      ]
+    }
+  },
+  "skilling:exploring": {
+    "maxlevel": 256,
+    "icon": {
+      "icon": "minecraft:compass",
+      "type": "item",
+      "skillbookVisible": true
+    },
+    "fireworks": {
+      "primary": [
+        "0x1AF1EF",
+        "0x1AF15E"
+      ],
+      "secondary": [
+        "0x1AF15E"
+      ]
+    }
+  },
+  "skilling:farming": {
+    "maxlevel": 256,
+    "icon": {
+      "icon": "minecraft:golden_hoe",
+      "type": "item",
+      "skillbookVisible": true
+    },
+    "requirements": {
+      "skilling:crafting": 10
+    },
+    "fireworks": {
+      "primary": [
+        "0xC4D815",
+        "0x1ABC21"
+      ],
+      "secondary": [
+        "0x1ABC21"
+      ]
+    }
+  },
+  "skilling:fishing": {
+    "maxlevel": 256,
+    "icon": {
+      "icon": "minecraft:fishing_rod",
+      "type": "item",
+      "skillbookVisible": true
+    },
+    "requirements": {
+      "skilling:cooking": 10
+    },
+    "fireworks": {
+      "primary": [
+        "0x19C3ED",
+        "0x1949ED"
+      ],
+      "secondary": [
+        "0x1949ED"
+      ]
+    }
+  },
+  "skilling:forestry": {
+    "maxlevel": 120,
+    "icon": {
+      "icon": "minecraft:oak_sapling",
+      "type": "item",
+      "skillbookVisible": true
+    },
+    "fireworks": {
+      "primary": [
+        "0x04781B",
+        "0x2AAA44"
+      ],
+      "secondary": [
+        "0x84DF96"
+      ]
+    }
+  },
+  "skilling:mining": {
+    "maxlevel": 100,
+    "xpModifier": 0.5,
+    "icon": {
+      "icon": "minecraft:iron_pickaxe",
+      "type": "item",
+      "skillbookVisible": true
+    },
+    "fireworks": {
+      "primary": [
+        "0x522803",
+        "0x7F4715"
+      ],
+      "secondary": [
+        "0x392411"
+      ]
+    }
+  },
+  "skilling:smithing": {
+    "maxlevel": 256,
+    "icon": {
+      "icon": "minecraft:anvil",
+      "type": "block",
+      "skillbookVisible": true
+    },
+    "requirements": {
+      "skilling:mining": 10
+    },
+    "fireworks": {
+      "primary": [
+        "0x43161E",
+        "0x6F6F6F"
+      ],
+      "secondary": [
+        "0x6F6F6F"
+      ]
+    }
+  }
+}

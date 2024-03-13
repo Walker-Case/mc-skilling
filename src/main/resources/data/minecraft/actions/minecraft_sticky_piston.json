@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:sticky_piston",
+  "icon": {
+    "icon": "minecraft:sticky_piston",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 3.2
+      },
+      "requirements": {
+        "skilling:engineering": 32
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:engineering": 32
+      }
+    }
+  ]
+}

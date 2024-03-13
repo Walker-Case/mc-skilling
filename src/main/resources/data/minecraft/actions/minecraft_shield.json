@@ -1,0 +1,28 @@
+{
+  "item": "minecraft:shield",
+  "icon": {
+    "icon": "minecraft:shield",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 1.2
+      },
+      "requirements": {
+        "skilling:crafting": 35,
+        "skilling:combat": 45
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 45
+      }
+    }
+  ]
+}

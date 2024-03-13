@@ -1,0 +1,31 @@
+{
+  "item": "minecraft:cod",
+  "icon": {
+    "icon": "minecraft:cod",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:fishing",
+      "xp": {
+        "skilling:fishing": 5.0
+      },
+      "requirements": {
+        "skilling:fishing": 5
+      }
+    },
+    {
+      "action": "minecraft:killed",
+      "xp": {
+        "skilling:fishing": 2.0,
+        "skilling:combat": 0.1
+      },
+      "requirements": {
+        "skilling:fishing": 5
+      }
+    }
+  ]
+}

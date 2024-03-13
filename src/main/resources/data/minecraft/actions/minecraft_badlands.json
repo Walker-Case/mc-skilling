@@ -1,0 +1,25 @@
+{
+  "item": "minecraft:badlands",
+  "icon": {
+    "icon": "minecraft:orange_terracotta",
+    "displayName": {
+      "name": "minecraft:badlands",
+      "translated": true
+    },
+    "type": "block",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 100.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

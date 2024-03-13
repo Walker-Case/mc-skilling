@@ -1,0 +1,36 @@
+{
+  "item": "minecraft:enchanting_table",
+  "icon": {
+    "icon": "minecraft:enchanting_table",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:single_player_use_block",
+      "requirements": {
+        "skilling:enchanting": 0,
+        "skilling:exploring": 50
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:exploring": 50
+      }
+    },
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 10.0,
+        "skilling:enchanting": 10.0
+      },
+      "requirements": {
+        "skilling:crafting": 50,
+        "skilling:enchanting": 0
+      }
+    }
+  ]
+}

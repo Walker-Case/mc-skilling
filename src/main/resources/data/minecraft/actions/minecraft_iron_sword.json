@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:iron_sword",
+  "icon": {
+    "icon": "minecraft:iron_sword",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.4,
+        "skilling:smithing": 0.2
+      },
+      "requirements": {
+        "skilling:crafting": 20,
+        "skilling:combat": 30,
+        "skilling:smithing": 23
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 30
+      }
+    }
+  ]
+}

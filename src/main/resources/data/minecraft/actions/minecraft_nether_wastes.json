@@ -1,0 +1,25 @@
+{
+  "item": "minecraft:nether_wastes",
+  "icon": {
+    "displayName": {
+      "name": "minecraft:nether_wastes",
+      "translated": true
+    },
+    "icon": "minecraft:netherrack",
+    "type": "block",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 500.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

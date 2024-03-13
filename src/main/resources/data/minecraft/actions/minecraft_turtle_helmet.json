@@ -1,0 +1,18 @@
+{
+  "item": "minecraft:turtle_helmet",
+  "icon": {
+    "icon": "minecraft:turtle_helmet",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 40
+      }
+    }
+  ]
+}

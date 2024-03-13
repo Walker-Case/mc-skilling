@@ -1,0 +1,22 @@
+{
+  "item": "minecraft:recovery_compass",
+  "icon": {
+    "icon": "minecraft:recovery_compass",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "skilling:crafting",
+      "xp": {
+        "skilling:exploring": 50.0
+      },
+      "requirements": {
+        "skilling:crafting": 80,
+        "skilling:exploring": 90
+      }
+    }
+  ]
+}

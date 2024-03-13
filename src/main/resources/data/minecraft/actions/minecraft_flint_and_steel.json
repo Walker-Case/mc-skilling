@@ -1,0 +1,32 @@
+{
+  "item": "minecraft:flint_and_steel",
+  "icon": {
+    "icon": "minecraft:flint_and_steel",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 5.0,
+        "skilling:exploring": 5.0
+      },
+      "requirements": {
+        "skilling:smithing": 50,
+        "skilling:crafting": 40
+      }
+    },
+    {
+      "action": "minecraft:interact_item",
+      "xp": {
+        "skilling:exploring": 0.1
+      },
+      "requirements": {
+        "skilling:exploring": 50
+      }
+    }
+  ]
+}

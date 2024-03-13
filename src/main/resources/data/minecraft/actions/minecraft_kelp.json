@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:kelp",
+  "icon": {
+    "icon": "minecraft:kelp",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:farming": 70.0
+      },
+      "requirements": {
+        "skilling:farming": 70
+      }
+    },
+    {
+      "action": "minecraft:interact_entity",
+      "xp": {
+        "skilling:farming": 70.0
+      },
+      "requirements": {
+        "skilling:farming": 70
+      }
+    }
+  ]
+}

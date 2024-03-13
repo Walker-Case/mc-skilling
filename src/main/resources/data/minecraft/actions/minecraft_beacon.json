@@ -1,0 +1,36 @@
+{
+  "item": "minecraft:beacon",
+  "icon": {
+    "icon": "minecraft:beacon",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 3.0,
+        "skilling:smithing": 5.0,
+        "skilling:alchemy": 4.0,
+        "skilling:engineering": 3.0
+      },
+      "requirements": {
+        "skilling:crafting": 40,
+        "skilling:smithing": 60,
+        "skilling:alchemy": 50,
+        "skilling:engineering": 68
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:crafting": 40,
+        "skilling:smithing": 60,
+        "skilling:alchemy": 50,
+        "skilling:engineering": 68
+      }
+    }
+  ]
+}

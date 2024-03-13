@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:cooked_cod",
+  "icon": {
+    "icon": "minecraft:cooked_cod",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smoking",
+      "xp": {
+        "skilling:cooking": 1.0
+      },
+      "requirements": {
+        "skilling:cooking": 25
+      }
+    },
+    {
+      "action": "skilling:cooking",
+      "xp": {
+        "skilling:cooking": 2.5
+      },
+      "requirements": {
+        "skilling:cooking": 25
+      }
+    }
+  ]
+}

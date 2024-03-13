@@ -1,0 +1,21 @@
+{
+  "item": "jeweler:cut_emerald_gem",
+  "icon": {
+    "icon": "jeweler:cut_emerald_gem",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "jeweler:prospecting": 0.2
+      },
+      "requirements": {
+        "jeweler:prospecting": 0
+      }
+    }
+  ]
+}

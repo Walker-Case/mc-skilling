@@ -1,0 +1,25 @@
+{
+  "item": "biomesoplenty:origin_valley",
+  "icon": {
+    "displayName": {
+      "name": "biomesoplenty:origin_valley",
+      "translated": true
+    },
+    "icon": "minecraft:rose_bush",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 1000.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

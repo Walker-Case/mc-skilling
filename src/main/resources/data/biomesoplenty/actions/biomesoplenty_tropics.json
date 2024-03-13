@@ -1,0 +1,25 @@
+{
+  "item": "biomesoplenty:tropics",
+  "icon": {
+    "displayName": {
+      "name": "biomesoplenty:tropics",
+      "translated": true
+    },
+    "icon": "biomesoplenty:palm_log",
+    "type": "block",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 100.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

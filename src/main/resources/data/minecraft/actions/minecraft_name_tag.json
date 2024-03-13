@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:name_tag",
+  "icon": {
+    "icon": "minecraft:name_tag",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:fishing",
+      "xp": {
+        "skilling:fishing": 0.5
+      },
+      "requirements": {
+        "skilling:fishing": 5
+      }
+    }
+  ]
+}

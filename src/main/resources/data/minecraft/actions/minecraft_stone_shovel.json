@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:stone_shovel",
+  "icon": {
+    "icon": "minecraft:stone_shovel",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.2
+      },
+      "requirements": {
+        "skilling:crafting": 10
+      }
+    }
+  ]
+}

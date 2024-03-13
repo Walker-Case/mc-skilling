@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:cooked_chicken",
+  "icon": {
+    "icon": "minecraft:cooked_chicken",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smoking",
+      "xp": {
+        "skilling:cooking": 1.0
+      },
+      "requirements": {
+        "skilling:cooking": 20
+      }
+    },
+    {
+      "action": "skilling:cooking",
+      "xp": {
+        "skilling:cooking": 2.0
+      },
+      "requirements": {
+        "skilling:cooking": 20
+      }
+    }
+  ]
+}

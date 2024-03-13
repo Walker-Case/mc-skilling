@@ -1,0 +1,25 @@
+{
+  "item": "minecraft:meadow_grove",
+  "icon": {
+    "displayName": {
+      "name": "minecraft:meadow_grove",
+      "translated": true
+    },
+    "icon": "minecraft:blue_orchid",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 100.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

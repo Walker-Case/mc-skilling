@@ -1,0 +1,24 @@
+{
+  "item": "minecraft:projectile_protection_1",
+  "icon": {
+    "icon": "minecraft:enchanted_book",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8,
+    "enchantments": {
+      "minecraft:projectile_protection": 1
+    }
+  },
+  "actions": [
+    {
+      "action": "minecraft:enchanting",
+      "xp": {
+        "skilling:enchanting": 5.0
+      },
+      "requirements": {
+        "skilling:enchanting": 35
+      }
+    }
+  ]
+}

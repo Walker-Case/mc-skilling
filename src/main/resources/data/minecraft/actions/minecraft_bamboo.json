@@ -1,0 +1,54 @@
+{
+  "item": "minecraft:bamboo",
+  "icon": {
+    "icon": "minecraft:bamboo",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:farming": 80.0,
+        "skilling:forestry": 10.0
+      },
+      "requirements": {
+        "skilling:farming": 80,
+        "skilling:forestry": 30
+      }
+    },
+    {
+      "action": "minecraft:interact_item",
+      "xp": {
+        "skilling:farming": 80.0,
+        "skilling:forestry": 10.0
+      },
+      "requirements": {
+        "skilling:farming": 80,
+        "skilling:forestry": 30
+      }
+    },
+    {
+      "action": "minecraft:place_block",
+      "xp": {
+        "skilling:farming": 80.0,
+        "skilling:forestry": 10.0
+      },
+      "requirements": {
+        "skilling:farming": 80,
+        "skilling:forestry": 30
+      }
+    },
+    {
+      "action": "minecraft:fishing",
+      "xp": {
+        "skilling:fishing": 0.2
+      },
+      "requirements": {
+        "skilling:fishing": 0
+      }
+    }
+  ]
+}

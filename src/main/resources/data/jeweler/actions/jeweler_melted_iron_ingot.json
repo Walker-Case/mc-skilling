@@ -1,0 +1,21 @@
+{
+  "item": "jeweler:melted_iron_ingot",
+  "icon": {
+    "icon": "jeweler:melted_iron_ingot",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smelting",
+      "xp": {
+        "skilling:smithing": 0.2
+      },
+      "requirements": {
+        "skilling:smithing": 20
+      }
+    }
+  ]
+}

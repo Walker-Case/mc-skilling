@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:mangrove_roots",
+  "icon": {
+    "icon": "minecraft:mangrove_roots",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "skilling:chopping",
+      "xp": {
+        "skilling:forestry": 2.2
+      },
+      "requirements": {
+        "skilling:forestry": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "item": "minecraft:stone",
+  "icon": {
+    "icon": "minecraft:stone",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smelting",
+      "xp": {},
+      "requirements": {}
+    },
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:mining": 0.1
+      },
+      "requirements": {
+        "skilling:mining": 0
+      }
+    }
+  ]
+}

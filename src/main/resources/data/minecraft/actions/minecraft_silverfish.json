@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:silverfish",
+  "icon": {
+    "icon": "minecraft:silverfish",
+    "type": "entity",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 16
+  },
+  "actions": [
+    {
+      "action": "minecraft:killed",
+      "xp": {
+        "skilling:combat": 0.4
+      },
+      "requirements": {
+        "skilling:combat": 0
+      }
+    }
+  ]
+}

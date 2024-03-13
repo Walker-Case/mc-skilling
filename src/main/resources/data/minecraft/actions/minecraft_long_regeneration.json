@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:long_regeneration",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:long_regeneration",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 4.8
+      },
+      "requirements": {
+        "skilling:alchemy": 84
+      }
+    }
+  ]
+}

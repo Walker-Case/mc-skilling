@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:detector_rail",
+  "icon": {
+    "icon": "minecraft:detector_rail",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 2.5
+      },
+      "requirements": {
+        "skilling:engineering": 25
+      }
+    },
+    {
+      "action": "minecraft:interact_item",
+      "requirements": {
+        "skilling:engineering": 25
+      }
+    }
+  ]
+}

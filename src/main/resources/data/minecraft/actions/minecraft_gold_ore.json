@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:gold_ore",
+  "icon": {
+    "icon": "minecraft:gold_ore",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:mining": 1.2
+      },
+      "requirements": {
+        "skilling:mining": 50
+      }
+    }
+  ]
+}

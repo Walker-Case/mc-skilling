@@ -1,0 +1,39 @@
+{
+  "item": "minecraft:leather_helmet",
+  "icon": {
+    "icon": "minecraft:leather_helmet",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smithing",
+      "xp": {
+        "skilling:smithing": 0.1,
+        "skilling:crafting": 0.05
+      },
+      "requirements": {
+        "skilling:smithing": 0,
+        "skilling:crafting": 20
+      }
+    },
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.3
+      },
+      "requirements": {
+        "skilling:crafting": 20,
+        "skilling:combat": 2
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 10
+      }
+    }
+  ]
+}

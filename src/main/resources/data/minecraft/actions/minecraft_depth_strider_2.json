@@ -1,0 +1,25 @@
+{
+  "item": "minecraft:depth_strider_2",
+  "icon": {
+    "icon": "minecraft:enchanted_book",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8,
+    "enchantments": {
+      "minecraft:depth_strider": 2
+    }
+  },
+  "actions": [
+    {
+      "action": "minecraft:enchanting",
+      "xp": {
+        "skilling:enchanting": 4.5
+      },
+      "requirements": {
+        "skilling:enchanting": 36,
+        "skilling:exploring": 40
+      }
+    }
+  ]
+}

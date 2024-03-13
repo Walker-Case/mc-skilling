@@ -1,0 +1,23 @@
+{
+  "jeweler:prospecting": {
+    "maxlevel": 110,
+    "icon": {
+      "icon": "jeweler:cut_emerald_gem",
+      "type": "item",
+      "skillbookVisible": true
+    },
+    "requirements": {
+      "skilling:mining": 20,
+      "skilling:smithing": 10
+    },
+    "fireworks": {
+      "primary": [
+        "0x1EFC03",
+        "0xFC7C03"
+      ],
+      "secondary": [
+        "0xFC7C03"
+      ]
+    }
+  }
+}

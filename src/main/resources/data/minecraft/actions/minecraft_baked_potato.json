@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:baked_potato",
+  "icon": {
+    "icon": "minecraft:baked_potato",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smoking",
+      "xp": {
+        "skilling:cooking": 0.35
+      },
+      "requirements": {
+        "skilling:cooking": 7
+      }
+    },
+    {
+      "action": "skilling:cooking",
+      "xp": {
+        "skilling:cooking": 0.7
+      },
+      "requirements": {
+        "skilling:cooking": 7
+      }
+    }
+  ]
+}

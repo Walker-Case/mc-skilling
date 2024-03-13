@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "skilling:crafting": 30,
+        "skilling:forestry": 30
+      },
+      "xp": {
+        "skilling:crafting": 1.1375,
+        "skilling:forestry": 1.1375
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "minecraft:jungle_planks",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "minecraft:jungle_planks"
+}

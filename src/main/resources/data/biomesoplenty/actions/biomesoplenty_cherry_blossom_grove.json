@@ -1,0 +1,25 @@
+{
+  "item": "biomesoplenty:cherry_blossom_grove",
+  "icon": {
+    "displayName": {
+      "name": "biomesoplenty:cherry_blossom_grove",
+      "translated": true
+    },
+    "icon": "biomesoplenty:pink_cherry_leaves",
+    "type": "block",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 100.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

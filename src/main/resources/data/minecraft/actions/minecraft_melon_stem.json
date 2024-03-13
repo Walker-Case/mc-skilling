@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:melon_stem",
+  "icon": {
+    "icon": "minecraft:",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": false,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:farming": 60.0
+      },
+      "requirements": {
+        "skilling:farming": 60
+      }
+    },
+    {
+      "action": "minecraft:place_block",
+      "xp": {
+        "skilling:farming": 60.0
+      },
+      "requirements": {
+        "skilling:farming": 60
+      }
+    }
+  ]
+}

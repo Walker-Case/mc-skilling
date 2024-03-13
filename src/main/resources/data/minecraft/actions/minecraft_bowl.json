@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:bowl",
+  "icon": {
+    "icon": "minecraft:bowl",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:fishing",
+      "xp": {
+        "skilling:fishing": 0.2
+      },
+      "requirements": {
+        "skilling:fishing": 0
+      }
+    }
+  ]
+}

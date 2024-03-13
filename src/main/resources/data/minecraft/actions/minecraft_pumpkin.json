@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:pumpkin",
+  "icon": {
+    "icon": "minecraft:pumpkin",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:break_block",
+      "xp": {
+        "skilling:farming": 50.0
+      },
+      "requirements": {
+        "skilling:farming": 50
+      }
+    },
+    {
+      "action": "minecraft:interact_entity",
+      "xp": {
+        "skilling:farming": 50.0
+      },
+      "requirements": {
+        "skilling:farming": 50
+      }
+    }
+  ]
+}

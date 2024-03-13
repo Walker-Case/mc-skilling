@@ -1,0 +1,25 @@
+{
+  "item": "minecraft:blast_protection_1",
+  "icon": {
+    "icon": "minecraft:enchanted_book",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8,
+    "enchantments": {
+      "minecraft:blast_protection": 1
+    }
+  },
+  "actions": [
+    {
+      "action": "minecraft:enchanting",
+      "xp": {
+        "skilling:enchanting": 2.5
+      },
+      "requirements": {
+        "skilling:enchanting": 5,
+        "skilling:combat": 10
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:chest",
+  "icon": {
+    "icon": "minecraft:chest",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:crafting": 3
+      }
+    },
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.2
+      },
+      "requirements": {
+        "skilling:crafting": 3
+      }
+    }
+  ]
+}

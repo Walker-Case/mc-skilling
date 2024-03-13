@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:minecart",
+  "icon": {
+    "icon": "minecraft:minecart",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 2.4
+      },
+      "requirements": {
+        "skilling:engineering": 24
+      }
+    },
+    {
+      "action": "minecraft:interact_item",
+      "requirements": {
+        "skilling:engineering": 24
+      }
+    }
+  ]
+}

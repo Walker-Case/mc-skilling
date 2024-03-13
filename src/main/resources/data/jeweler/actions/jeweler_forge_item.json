@@ -1,0 +1,30 @@
+{
+  "item": "jeweler:forge_item",
+  "icon": {
+    "icon": "jeweler:forge_item",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": false,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smelting",
+      "xp": {
+        "jeweler:prospecting": 0.1
+      },
+      "requirements": {
+        "jeweler:prospecting": 0
+      }
+    },
+    {
+      "action": "minecraft:smithing_changed",
+      "xp": {
+        "jeweler:prospecting": 0.1
+      },
+      "requirements": {
+        "jeweler:prospecting": 0
+      }
+    }
+  ]
+}

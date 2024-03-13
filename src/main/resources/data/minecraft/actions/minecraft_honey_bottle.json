@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:honey_bottle",
+  "icon": {
+    "icon": "minecraft:honey_bottle",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:interact_item",
+      "xp": {
+        "skilling:farming": 4.0
+      },
+      "requirements": {
+        "skilling:farming": 40
+      }
+    }
+  ]
+}

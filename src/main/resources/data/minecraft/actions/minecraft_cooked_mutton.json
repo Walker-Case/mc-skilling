@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:cooked_mutton",
+  "icon": {
+    "icon": "minecraft:cooked_mutton",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smoking",
+      "xp": {
+        "skilling:cooking": 2.0
+      },
+      "requirements": {
+        "skilling:cooking": 40
+      }
+    },
+    {
+      "action": "skilling:cooking",
+      "xp": {
+        "skilling:cooking": 4.0
+      },
+      "requirements": {
+        "skilling:cooking": 40
+      }
+    }
+  ]
+}

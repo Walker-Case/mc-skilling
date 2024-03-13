@@ -1,0 +1,22 @@
+{
+  "item": "minecraft:thick",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:thick",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 0.2
+      },
+      "requirements": {
+        "skilling:alchemy": 10,
+        "skilling:exploring": 50
+      }
+    }
+  ]
+}

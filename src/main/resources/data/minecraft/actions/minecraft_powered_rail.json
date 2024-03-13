@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:powered_rail",
+  "icon": {
+    "icon": "minecraft:powered_rail",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 2.3
+      },
+      "requirements": {
+        "skilling:engineering": 23
+      }
+    },
+    {
+      "action": "minecraft:interact_item",
+      "requirements": {
+        "skilling:engineering": 23
+      }
+    }
+  ]
+}

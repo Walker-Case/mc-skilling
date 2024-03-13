@@ -1,0 +1,25 @@
+{
+  "item": "minecraft:dripstone_caves",
+  "icon": {
+    "displayName": {
+      "name": "minecraft:dripstone_caves",
+      "translated": true
+    },
+    "icon": "minecraft:pointed_dripstone",
+    "type": "block",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 200.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

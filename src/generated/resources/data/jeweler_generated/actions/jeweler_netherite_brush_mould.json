@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "jeweler:prospecting": 100,
+        "skilling:smithing": 110
+      },
+      "xp": {
+        "jeweler:prospecting": 15.05,
+        "skilling:smithing": 15.05
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "jeweler:netherite_brush_mould",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "jeweler:netherite_brush_mould"
+}

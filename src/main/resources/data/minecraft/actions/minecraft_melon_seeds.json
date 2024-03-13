@@ -1,0 +1,48 @@
+{
+  "item": "minecraft:melon_seeds",
+  "icon": {
+    "icon": "minecraft:melon_seeds",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:farming": 60.0
+      },
+      "requirements": {
+        "skilling:farming": 60
+      }
+    },
+    {
+      "action": "minecraft:interact_item",
+      "xp": {
+        "skilling:farming": 75.0
+      },
+      "requirements": {
+        "skilling:farming": 75
+      }
+    },
+    {
+      "action": "minecraft:place_block",
+      "xp": {
+        "skilling:farming": 60.0
+      },
+      "requirements": {
+        "skilling:farming": 60
+      }
+    },
+    {
+      "action": "minecraft:interact_entity",
+      "xp": {
+        "skilling:farming": 60.0
+      },
+      "requirements": {
+        "skilling:farming": 60
+      }
+    }
+  ]
+}

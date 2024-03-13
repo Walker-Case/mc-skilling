@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "jeweler:prospecting": 75
+      },
+      "xp": {
+        "jeweler:prospecting": 22.6
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "jeweler:diamond_bracers",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "jeweler:diamond_bracers"
+}

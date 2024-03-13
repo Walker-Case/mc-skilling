@@ -1,0 +1,25 @@
+{
+  "item": "biomesoplenty:undergrowth",
+  "icon": {
+    "displayName": {
+      "name": "biomesoplenty:undergrowth",
+      "translated": true
+    },
+    "icon": "biomesoplenty:hellbark_log",
+    "type": "block",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 700.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

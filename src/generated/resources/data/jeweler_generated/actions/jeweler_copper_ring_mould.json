@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "jeweler:prospecting": 0,
+        "skilling:smithing": 10
+      },
+      "xp": {
+        "jeweler:prospecting": 0.05,
+        "skilling:smithing": 0.05
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "jeweler:copper_ring_mould",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "jeweler:copper_ring_mould"
+}

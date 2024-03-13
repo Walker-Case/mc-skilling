@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:healing",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:awkward",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 0.6
+      },
+      "requirements": {
+        "skilling:alchemy": 30
+      }
+    }
+  ]
+}

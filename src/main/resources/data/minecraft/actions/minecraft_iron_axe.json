@@ -1,0 +1,23 @@
+{
+  "item": "minecraft:iron_shovel",
+  "icon": {
+    "icon": "minecraft:iron_shovel",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 2,
+        "skilling:smithing": 2
+      },
+      "requirements": {
+        "skilling:crafting": 20,
+        "skilling:smithing": 22
+      }
+    }
+  ]
+}

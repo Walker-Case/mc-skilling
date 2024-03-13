@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:cake",
+  "icon": {
+    "icon": "minecraft:cake",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:cooking": 9.9
+      },
+      "requirements": {
+        "skilling:cooking": 99
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "item": "minecraft:end_rod",
+  "icon": {
+    "icon": "minecraft:end_rod",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 10.0,
+        "skilling:exploring": 5.0,
+        "skilling:alchemy": 10.0,
+        "skilling:engineering": 10.0
+      },
+      "requirements": {
+        "skilling:crafting": 90,
+        "skilling:exploring": 100,
+        "skilling:alchemy": 90,
+        "skilling:engineering": 100
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:crafting": 90,
+        "skilling:exploring": 100,
+        "skilling:alchemy": 90,
+        "skilling:engineering": 100
+      }
+    }
+  ]
+}

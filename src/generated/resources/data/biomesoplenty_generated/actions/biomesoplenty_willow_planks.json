@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "skilling:crafting": 80,
+        "skilling:forestry": 80
+      },
+      "xp": {
+        "skilling:crafting": 3.0125,
+        "skilling:forestry": 3.0125
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "biomesoplenty:willow_planks",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "biomesoplenty:willow_planks"
+}

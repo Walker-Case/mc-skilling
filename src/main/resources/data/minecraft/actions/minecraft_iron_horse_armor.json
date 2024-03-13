@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:iron_horse_armor",
+  "icon": {
+    "icon": "minecraft:iron_horse_armor",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 2.0,
+        "skilling:smithing": 1.0
+      },
+      "requirements": {
+        "skilling:crafting": 50,
+        "skilling:smithing": 40,
+        "skilling:combat": 15
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 60
+      }
+    }
+  ]
+}

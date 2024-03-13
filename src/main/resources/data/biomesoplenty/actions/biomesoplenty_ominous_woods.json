@@ -1,0 +1,25 @@
+{
+  "item": "biomesoplenty:ominous_woods",
+  "icon": {
+    "displayName": {
+      "name": "biomesoplenty:ominous_woods",
+      "translated": true
+    },
+    "icon": "biomesoplenty:umbran_log",
+    "type": "block",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 200.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

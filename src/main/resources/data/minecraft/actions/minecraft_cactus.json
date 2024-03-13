@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:cactus",
+  "icon": {
+    "icon": "minecraft:cactus",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:place_block",
+      "xp": {
+        "skilling:farming": 5.0
+      },
+      "requirements": {
+        "skilling:farming": 5
+      }
+    },
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:farming": 5.0
+      },
+      "requirements": {
+        "skilling:farming": 5
+      }
+    }
+  ]
+}

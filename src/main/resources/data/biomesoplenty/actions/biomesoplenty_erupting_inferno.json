@@ -1,0 +1,25 @@
+{
+  "item": "biomesoplenty:erupting_inferno",
+  "icon": {
+    "displayName": {
+      "name": "biomesoplenty:erupting_inferno",
+      "translated": true
+    },
+    "icon": "minecraft:magma_block",
+    "type": "block",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 700.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

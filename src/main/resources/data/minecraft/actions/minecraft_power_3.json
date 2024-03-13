@@ -1,0 +1,24 @@
+{
+  "item": "minecraft:power_3",
+  "icon": {
+    "icon": "minecraft:enchanted_book",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8,
+    "enchantments": {
+      "minecraft:power": 3
+    }
+  },
+  "actions": [
+    {
+      "action": "minecraft:enchanting",
+      "xp": {
+        "skilling:enchanting": 20.0
+      },
+      "requirements": {
+        "skilling:enchanting": 60
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "item": "minecraft:elytra",
+  "icon": {
+    "icon": "minecraft:elytra",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 100
+      }
+    }
+  ]
+}

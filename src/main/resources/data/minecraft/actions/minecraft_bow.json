@@ -1,0 +1,37 @@
+{
+  "item": "minecraft:bow",
+  "icon": {
+    "icon": "minecraft:bow",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.5
+      },
+      "requirements": {
+        "skilling:crafting": 30,
+        "skilling:combat": 40
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 40
+      }
+    },
+    {
+      "action": "minecraft:fishing",
+      "xp": {
+        "skilling:fishing": 2.0
+      },
+      "requirements": {
+        "skilling:fishing": 2
+      }
+    }
+  ]
+}

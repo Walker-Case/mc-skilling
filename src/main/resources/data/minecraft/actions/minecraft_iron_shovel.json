@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:iron_axe",
+  "icon": {
+    "icon": "minecraft:iron_axe",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.4,
+        "skilling:smithing": 0.2
+      },
+      "requirements": {
+        "skilling:crafting": 20,
+        "skilling:forestry": 30,
+        "skilling:smithing": 22
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:forestry": 30
+      }
+    }
+  ]
+}

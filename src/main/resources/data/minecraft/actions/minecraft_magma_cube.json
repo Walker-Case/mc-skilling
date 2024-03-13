@@ -1,0 +1,18 @@
+{
+  "item": "minecraft:magma_cube",
+  "icon": {
+    "icon": "minecraft:magma_cube",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:killed",
+      "xp": {
+        "skilling:combat": 0.8
+      }
+    }
+  ]
+}

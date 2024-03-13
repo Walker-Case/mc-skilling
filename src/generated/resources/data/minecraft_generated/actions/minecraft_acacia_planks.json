@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "skilling:crafting": 40,
+        "skilling:forestry": 40
+      },
+      "xp": {
+        "skilling:crafting": 1.5125,
+        "skilling:forestry": 1.5125
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "minecraft:acacia_planks",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "minecraft:acacia_planks"
+}

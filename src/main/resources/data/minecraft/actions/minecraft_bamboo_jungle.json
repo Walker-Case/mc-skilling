@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:bamboo_jungle",
+  "icon": {
+    "icon": "minecraft:bamboo_block",
+    "type": "block",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 100.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

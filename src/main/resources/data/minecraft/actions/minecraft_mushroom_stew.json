@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:mushroom_stew",
+  "icon": {
+    "icon": "minecraft:mushroom_stew",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smoking",
+      "xp": {
+        "skilling:cooking": 1.5
+      },
+      "requirements": {
+        "skilling:cooking": 30
+      }
+    },
+    {
+      "action": "skilling:cooking",
+      "xp": {
+        "skilling:cooking": 3.0
+      },
+      "requirements": {
+        "skilling:cooking": 30
+      }
+    }
+  ]
+}

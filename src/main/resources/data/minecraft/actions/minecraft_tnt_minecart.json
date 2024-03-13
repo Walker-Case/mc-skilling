@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:tnt_minecart",
+  "icon": {
+    "icon": "minecraft:tnt_minecart",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 5.2
+      },
+      "requirements": {
+        "skilling:engineering": 52
+      }
+    },
+    {
+      "action": "minecraft:place_block",
+      "requirements": {
+        "skilling:engineering": 52
+      }
+    }
+  ]
+}

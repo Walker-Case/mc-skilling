@@ -1,0 +1,41 @@
+{
+  "item": "minecraft:chainmail_helmet",
+  "icon": {
+    "icon": "minecraft:chainmail_helmet",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smithing",
+      "xp": {
+        "skilling:smithing": 0.2,
+        "skilling:crafting": 0.1
+      },
+      "requirements": {
+        "skilling:smithing": 20,
+        "skilling:crafting": 30
+      }
+    },
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 1.0,
+        "skilling:smithing": 0.5
+      },
+      "requirements": {
+        "skilling:crafting": 30,
+        "skilling:smithing": 20,
+        "skilling:combat": 5
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 20
+      }
+    }
+  ]
+}

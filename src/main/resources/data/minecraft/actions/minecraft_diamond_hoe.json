@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:diamond_hoe",
+  "icon": {
+    "icon": "minecraft:diamond_hoe",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.8,
+        "skilling:smithing": 0.4
+      },
+      "requirements": {
+        "skilling:crafting": 60,
+        "skilling:farming": 90,
+        "skilling:smithing": 86
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:farming": 90
+      }
+    }
+  ]
+}

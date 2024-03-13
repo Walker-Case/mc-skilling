@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:nautilus_shell",
+  "icon": {
+    "icon": "minecraft:nautilus_shell",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:fishing",
+      "xp": {
+        "skilling:fishing": 35.0
+      },
+      "requirements": {
+        "skilling:fishing": 35
+      }
+    }
+  ]
+}

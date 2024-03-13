@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "jeweler:prospecting": 50,
+        "skilling:smithing": 60
+      },
+      "xp": {
+        "jeweler:prospecting": 7.55,
+        "skilling:smithing": 7.55
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "jeweler:gold_bracers_mould",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "jeweler:gold_bracers_mould"
+}

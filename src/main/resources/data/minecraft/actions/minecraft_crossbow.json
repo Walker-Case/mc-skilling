@@ -1,0 +1,28 @@
+{
+  "item": "minecraft:crossbow",
+  "icon": {
+    "icon": "minecraft:crossbow",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 3.0
+      },
+      "requirements": {
+        "skilling:crafting": 40,
+        "skilling:combat": 50
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 50
+      }
+    }
+  ]
+}

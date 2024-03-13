@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:deepslate_emerald_ore",
+  "icon": {
+    "icon": "minecraft:deepslate_emerald_ore",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:mining": 20.0
+      },
+      "requirements": {
+        "skilling:mining": 95
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "item": "minecraft:sugar_cane",
+  "icon": {
+    "icon": "minecraft:sugar_cane",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:farming": 90.0
+      },
+      "requirements": {
+        "skilling:farming": 90
+      }
+    },
+    {
+      "action": "minecraft:interact_entity",
+      "xp": {
+        "skilling:farming": 90.0
+      },
+      "requirements": {
+        "skilling:farming": 90
+      }
+    },
+    {
+      "action": "minecraft:place_block",
+      "xp": {
+        "skilling:farming": 90.0
+      },
+      "requirements": {
+        "skilling:farming": 90
+      }
+    }
+  ]
+}

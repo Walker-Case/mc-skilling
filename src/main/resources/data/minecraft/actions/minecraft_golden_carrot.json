@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:golden_carrot",
+  "icon": {
+    "icon": "minecraft:golden_carrot",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:cooking": 7.0
+      },
+      "requirements": {
+        "skilling:cooking": 70
+      }
+    }
+  ]
+}

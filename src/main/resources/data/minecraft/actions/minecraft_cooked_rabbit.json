@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:cooked_rabbit",
+  "icon": {
+    "icon": "minecraft:cooked_rabbit",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smoking",
+      "xp": {
+        "skilling:cooking": 2.0
+      },
+      "requirements": {
+        "skilling:cooking": 45
+      }
+    },
+    {
+      "action": "skilling:cooking",
+      "xp": {
+        "skilling:cooking": 4.5
+      },
+      "requirements": {
+        "skilling:cooking": 45
+      }
+    }
+  ]
+}

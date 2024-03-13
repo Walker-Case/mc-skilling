@@ -1,0 +1,23 @@
+{
+  "item": "minecraft:netherite_shovel",
+  "icon": {
+    "icon": "minecraft:netherite_shovel",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 10,
+        "skilling:smithing": 10
+      },
+      "requirements": {
+        "skilling:crafting": 80,
+        "skilling:smithing": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:netherite_axe",
+  "icon": {
+    "icon": "minecraft:netherite_axe",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 10,
+        "skilling:smithing": 10
+      },
+      "requirements": {
+        "skilling:crafting": 80,
+        "skilling:smithing": 100,
+        "skilling:forestry": 100
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:forestry": 100
+      }
+    }
+  ]
+}

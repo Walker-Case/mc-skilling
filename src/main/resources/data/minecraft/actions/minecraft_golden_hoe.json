@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:golden_hoe",
+  "icon": {
+    "icon": "minecraft:golden_hoe",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.6,
+        "skilling:smithing": 0.3
+      },
+      "requirements": {
+        "skilling:crafting": 30,
+        "skilling:farming": 60,
+        "skilling:smithing": 42
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:farming": 60
+      }
+    }
+  ]
+}

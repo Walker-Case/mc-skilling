@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:frog",
+  "icon": {
+    "icon": "minecraft:frog",
+    "type": "entity",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 16
+  },
+  "actions": [
+    {
+      "action": "minecraft:killed",
+      "xp": {
+        "skilling:combat": 0.1
+      },
+      "requirements": {
+        "skilling:combat": 0
+      }
+    }
+  ]
+}

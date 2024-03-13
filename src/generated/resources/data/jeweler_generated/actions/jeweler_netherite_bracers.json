@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "jeweler:prospecting": 100
+      },
+      "xp": {
+        "jeweler:prospecting": 30.1
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "jeweler:netherite_bracers",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "jeweler:netherite_bracers"
+}

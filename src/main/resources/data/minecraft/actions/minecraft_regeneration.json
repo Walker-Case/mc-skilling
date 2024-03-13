@@ -1,0 +1,22 @@
+{
+  "item": "minecraft:regeneration",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:regeneration",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 0.8
+      },
+      "requirements": {
+        "skilling:alchemy": 40,
+        "skilling:exploring": 50
+      }
+    }
+  ]
+}

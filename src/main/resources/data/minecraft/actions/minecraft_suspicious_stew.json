@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:suspicious_stew",
+  "icon": {
+    "icon": "minecraft:suspicious_stew",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "skilling:cooking",
+      "xp": {
+        "skilling:cooking": 5.0
+      },
+      "requirements": {
+        "skilling:cooking": 100
+      }
+    }
+  ]
+}

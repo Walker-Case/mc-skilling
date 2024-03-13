@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:long_slow_falling",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:long_slow_falling",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 14.0
+      },
+      "requirements": {
+        "skilling:alchemy": 94
+      }
+    }
+  ]
+}

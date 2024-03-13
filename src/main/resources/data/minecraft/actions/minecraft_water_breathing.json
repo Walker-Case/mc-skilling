@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:water_breathing",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:water_breathing",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 0.8
+      },
+      "requirements": {
+        "skilling:alchemy": 44
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "item": "minecraft:pufferfish",
+  "icon": {
+    "icon": "minecraft:pufferfish",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:fishing",
+      "xp": {
+        "skilling:fishing": 50.0
+      },
+      "requirements": {
+        "skilling:fishing": 50
+      }
+    },
+    {
+      "action": "minecraft:killed",
+      "xp": {
+        "skilling:fishing": 20.0,
+        "skilling:combat": 0.2
+      },
+      "requirements": {
+        "skilling:fishing": 50
+      }
+    }
+  ]
+}

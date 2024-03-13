@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:strong_strength",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:strong_strength",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 2.4
+      },
+      "requirements": {
+        "skilling:alchemy": 78
+      }
+    }
+  ]
+}

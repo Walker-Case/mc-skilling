@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:dropper",
+  "icon": {
+    "icon": "minecraft:dropper",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 3.5
+      },
+      "requirements": {
+        "skilling:engineering": 35
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:engineering": 35
+      }
+    }
+  ]
+}

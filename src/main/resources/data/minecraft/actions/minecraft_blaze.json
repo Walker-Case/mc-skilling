@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:blaze",
+  "icon": {
+    "icon": "minecraft:blaze",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:killed",
+      "xp": {
+        "skilling:combat": 0.8
+      },
+      "requirements": {
+        "skilling:combat": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:daylight_detector",
+  "icon": {
+    "icon": "minecraft:daylight_detector",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 6.2
+      },
+      "requirements": {
+        "skilling:engineering": 62
+      }
+    },
+    {
+      "action": "minecraft:place_block",
+      "requirements": {
+        "skilling:engineering": 62
+      }
+    }
+  ]
+}

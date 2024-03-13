@@ -1,0 +1,36 @@
+{
+  "item": "minecraft:lodestone",
+  "icon": {
+    "icon": "minecraft:lodestone",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 4.5,
+        "skilling:exploring": 6.5,
+        "skilling:alchemy": 5.5,
+        "skilling:engineering": 6.5
+      },
+      "requirements": {
+        "skilling:crafting": 65,
+        "skilling:exploring": 85,
+        "skilling:alchemy": 80,
+        "skilling:engineering": 98
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:crafting": 65,
+        "skilling:exploring": 85,
+        "skilling:alchemy": 80,
+        "skilling:engineering": 98
+      }
+    }
+  ]
+}

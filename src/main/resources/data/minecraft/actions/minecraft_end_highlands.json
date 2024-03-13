@@ -1,0 +1,25 @@
+{
+  "item": "minecraft:end_highlands",
+  "icon": {
+    "displayName": {
+      "name": "minecraft:end_highlands",
+      "translated": true
+    },
+    "icon": "minecraft:end_stone",
+    "type": "block",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 5000.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

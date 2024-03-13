@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:poison",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:poison",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 0.64
+      },
+      "requirements": {
+        "skilling:alchemy": 34
+      }
+    }
+  ]
+}

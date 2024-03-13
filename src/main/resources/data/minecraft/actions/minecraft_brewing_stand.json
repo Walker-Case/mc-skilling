@@ -1,0 +1,37 @@
+{
+  "item": "minecraft:brewing_stand",
+  "icon": {
+    "icon": "minecraft:brewing_stand",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:single_player_use_block",
+      "requirements": {
+        "skilling:alchemy": 0,
+        "skilling:exploring": 50
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:exploring": 50
+      }
+    },
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 0.5,
+        "skilling:crafting": 2.0
+      },
+      "requirements": {
+        "skilling:alchemy": 0,
+        "skilling:crafting": 40,
+        "skilling:exploring": 50
+      }
+    }
+  ]
+}

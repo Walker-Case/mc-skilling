@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:sweeping_edge_1",
+  "icon": {
+    "icon": "minecraft:enchanted_book",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:enchanting",
+      "xp": {
+        "skilling:enchanting": 50.5
+      },
+      "requirements": {
+        "skilling:enchanting": 75
+      }
+    }
+  ]
+}

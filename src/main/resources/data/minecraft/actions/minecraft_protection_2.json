@@ -1,0 +1,24 @@
+{
+  "item": "minecraft:protection_2",
+  "icon": {
+    "icon": "minecraft:enchanted_book",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8,
+    "enchantments": {
+      "minecraft:protection": 2
+    }
+  },
+  "actions": [
+    {
+      "action": "minecraft:enchanting",
+      "xp": {
+        "skilling:enchanting": 7.5
+      },
+      "requirements": {
+        "skilling:enchanting": 60
+      }
+    }
+  ]
+}

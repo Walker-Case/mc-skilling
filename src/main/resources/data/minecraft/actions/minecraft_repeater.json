@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:repeater",
+  "icon": {
+    "icon": "minecraft:repeater",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 4.0
+      },
+      "requirements": {
+        "skilling:engineering": 40
+      }
+    },
+    {
+      "action": "minecraft:interact_item",
+      "requirements": {
+        "skilling:engineering": 40
+      }
+    }
+  ]
+}

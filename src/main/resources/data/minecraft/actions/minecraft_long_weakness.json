@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:long_weakness",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:long_weakness",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 15.0
+      },
+      "requirements": {
+        "skilling:alchemy": 95
+      }
+    }
+  ]
+}

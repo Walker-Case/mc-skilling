@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:saddle",
+  "icon": {
+    "icon": "minecraft:saddle",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:fishing",
+      "xp": {
+        "skilling:fishing": 15.0
+      },
+      "requirements": {
+        "skilling:fishing": 15
+      }
+    }
+  ]
+}

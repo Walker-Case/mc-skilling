@@ -1,0 +1,34 @@
+{
+  "item": "minecraft:smoker",
+  "icon": {
+    "icon": "minecraft:smoker",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:single_player_use_block",
+      "requirements": {
+        "skilling:cooking": 50
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:cooking": 50
+      }
+    },
+    {
+      "action": "skilling:crafting",
+      "xp": {
+        "skilling:crafting": 5.0
+      },
+      "requirements": {
+        "skilling:cooking": 50,
+        "skilling:crafting": 40
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "item": "biomesoplenty:volcano",
+  "icon": {
+    "displayName": {
+      "name": "biomesoplenty:volcano",
+      "translated": true
+    },
+    "icon": "minecraft:deepslate",
+    "type": "block",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 500.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

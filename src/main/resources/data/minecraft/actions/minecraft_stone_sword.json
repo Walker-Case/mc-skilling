@@ -1,0 +1,28 @@
+{
+  "item": "minecraft:stone_sword",
+  "icon": {
+    "icon": "minecraft:stone_sword",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.2
+      },
+      "requirements": {
+        "skilling:crafting": 10,
+        "skilling:combat": 10
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 10
+      }
+    }
+  ]
+}

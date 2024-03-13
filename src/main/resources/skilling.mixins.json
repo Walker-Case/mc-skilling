@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "com.walkercase.skilling.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "refmap": "skilling.refmap.json",
+  "plugin": "com.walkercase.skilling.mixin.MixinPlugin",
+  "mixins": [
+    "AbstractFurnaceBlockEntityMixin",
+    "BrewingStandBlockEntityMixin",
+    "CraftingMenuMixin",
+    "EnchantmentMenuMixin",
+    "FishingRodHookedTriggerEvent",
+    "LegacySmithingMenuMixin",
+    "LevelWriterMixin",
+    "MapItemSavedDataMixin",
+    "SmithingMenuMixin"
+  ],
+  "client": [
+
+  ],
+  "minVersion": "0.8",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

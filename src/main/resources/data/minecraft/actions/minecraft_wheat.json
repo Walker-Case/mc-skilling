@@ -1,0 +1,39 @@
+{
+  "item": "minecraft:wheat",
+  "icon": {
+    "icon": "minecraft:wheat",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:interact_entity",
+      "xp": {
+        "skilling:farming": 5.0
+      },
+      "requirements": {
+        "skilling:farming": 30
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "xp": {
+        "skilling:farming": 1.0
+      },
+      "requirements": {
+        "skilling:farming": 0
+      }
+    },
+    {
+      "action": "minecraft:interact_item",
+      "xp": {
+        "skilling:farming": 5.0
+      },
+      "requirements": {
+        "skilling:farming": 30
+      }
+    }
+  ]
+}

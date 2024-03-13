@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:strong_turtle_master",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:strong_turtle_master",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 12.0
+      },
+      "requirements": {
+        "skilling:alchemy": 92
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:dried_kelp",
+  "icon": {
+    "icon": "minecraft:dried_kelp",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "skilling:cooking",
+      "xp": {
+        "skilling:cooking": 0.2
+      },
+      "requirements": {
+        "skilling:cooking": 5
+      }
+    },
+    {
+      "action": "minecraft:smoking",
+      "xp": {
+        "skilling:cooking": 0.4
+      },
+      "requirements": {
+        "skilling:cooking": 5
+      }
+    }
+  ]
+}

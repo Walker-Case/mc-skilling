@@ -1,0 +1,48 @@
+{
+  "item": "minecraft:leather_boots",
+  "icon": {
+    "icon": "minecraft:leather_boots",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smithing",
+      "xp": {
+        "skilling:smithing": 0.1,
+        "skilling:crafting": 0.05
+      },
+      "requirements": {
+        "skilling:smithing": 0,
+        "skilling:crafting": 20
+      }
+    },
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.4
+      },
+      "requirements": {
+        "skilling:crafting": 20,
+        "skilling:combat": 2
+      }
+    },
+    {
+      "action": "minecraft:fishing",
+      "xp": {
+        "skilling:fishing": 0.2
+      },
+      "requirements": {
+        "skilling:fishing": 0
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 10
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:curse_of_binding_1",
+  "icon": {
+    "icon": "minecraft:enchanted_book",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:enchanting",
+      "xp": {
+        "skilling:enchanting": 15.0
+      },
+      "requirements": {
+        "skilling:enchanting": 30
+      }
+    }
+  ]
+}

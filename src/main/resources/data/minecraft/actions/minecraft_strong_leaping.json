@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:strong_leaping",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:strong_leaping",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 2.0
+      },
+      "requirements": {
+        "skilling:alchemy": 75
+      }
+    }
+  ]
+}

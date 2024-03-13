@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:ghast",
+  "icon": {
+    "icon": "minecraft:ghast",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 2
+  },
+  "actions": [
+    {
+      "action": "minecraft:killed",
+      "xp": {
+        "skilling:combat": 0.8
+      },
+      "requirements": {
+        "skilling:combat": 0
+      }
+    }
+  ]
+}

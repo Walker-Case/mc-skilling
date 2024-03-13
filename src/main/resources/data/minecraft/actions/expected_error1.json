@@ -1,0 +1,19 @@
+{
+  "item": "expected:error1",
+  "icon": {
+    "icon": "expected:error1",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "expected:error",
+      "xp": {}
+    },
+    {
+      "action": "minecraft:requirements"
+    }
+  ]
+}

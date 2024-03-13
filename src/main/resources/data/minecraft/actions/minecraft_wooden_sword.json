@@ -1,0 +1,28 @@
+{
+  "item": "minecraft:wooden_sword",
+  "icon": {
+    "icon": "minecraft:wooden_sword",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.1
+      },
+      "requirements": {
+        "skilling:crafting": 5,
+        "skilling:combat": 0
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 0
+      }
+    }
+  ]
+}

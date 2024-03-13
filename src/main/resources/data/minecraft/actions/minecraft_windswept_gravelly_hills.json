@@ -1,0 +1,25 @@
+{
+  "item": "minecraft:windswept_gravelly_hills",
+  "icon": {
+    "displayName": {
+      "name": "minecraft:windswept_gravelly_hills",
+      "translated": true
+    },
+    "icon": "minecraft:gravel",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:first_time_biome_enter",
+      "xp": {
+        "skilling:exploring": 100.0
+      },
+      "requirements": {
+        "skilling:exploring": 0
+      }
+    }
+  ]
+}

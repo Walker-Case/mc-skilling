@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:cooked_salmon",
+  "icon": {
+    "icon": "minecraft:cooked_salmon",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smoking",
+      "xp": {
+        "skilling:cooking": 2.5
+      },
+      "requirements": {
+        "skilling:cooking": 55
+      }
+    },
+    {
+      "action": "skilling:cooking",
+      "xp": {
+        "skilling:cooking": 5.5
+      },
+      "requirements": {
+        "skilling:cooking": 55
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "item": "minecraft:goat",
+  "icon": {
+    "icon": "minecraft:goat",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:killed",
+      "xp": {
+        "skilling:combat": 0.2
+      }
+    }
+  ]
+}

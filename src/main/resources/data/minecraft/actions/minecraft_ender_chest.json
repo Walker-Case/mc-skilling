@@ -1,0 +1,44 @@
+{
+  "item": "minecraft:ender_chest",
+  "icon": {
+    "icon": "minecraft:ender_chest",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 5.0,
+        "skilling:exploring": 10.0,
+        "skilling:engineering": 5.0
+      },
+      "requirements": {
+        "skilling:crafting": 100,
+        "skilling:exploring": 100,
+        "skilling:combat": 70,
+        "skilling:engineering": 90
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:crafting": 100,
+        "skilling:exploring": 100,
+        "skilling:combat": 70,
+        "skilling:engineering": 90
+      }
+    },
+    {
+      "action": "minecraft:single_player_use_block",
+      "requirements": {
+        "skilling:crafting": 100,
+        "skilling:exploring": 100,
+        "skilling:combat": 70,
+        "skilling:engineering": 90
+      }
+    }
+  ]
+}

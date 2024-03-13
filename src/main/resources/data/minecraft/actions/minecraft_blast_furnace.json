@@ -1,0 +1,35 @@
+{
+  "item": "minecraft:blast_furnace",
+  "icon": {
+    "icon": "minecraft:blast_furnace",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:single_player_use_block",
+      "requirements": {
+        "skilling:smithing": 50
+      }
+    },
+    {
+      "action": "minecraft:break_block",
+      "requirements": {
+        "skilling:smithing": 50
+      }
+    },
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:smithing": 5.0,
+        "skilling:crafting": 5.0
+      },
+      "requirements": {
+        "skilling:smithing": 50,
+        "skilling:crafting": 40
+      }
+    }
+  ]
+}

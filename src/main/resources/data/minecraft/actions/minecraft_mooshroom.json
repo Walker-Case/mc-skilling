@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:mooshroom",
+  "icon": {
+    "icon": "minecraft:mooshroom",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:killed",
+      "xp": {
+        "skilling:combat": 0.4
+      },
+      "requirements": {
+        "skilling:combat": 99
+      }
+    }
+  ]
+}

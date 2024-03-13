@@ -1,0 +1,28 @@
+{
+  "item": "minecraft:spectral_arrow",
+  "icon": {
+    "icon": "minecraft:spectral_arrow",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.5
+      },
+      "requirements": {
+        "skilling:crafting": 50,
+        "skilling:combat": 60
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 60
+      }
+    }
+  ]
+}

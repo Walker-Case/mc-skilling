@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:long_invisibility",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:long_invisibility",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 10.0
+      },
+      "requirements": {
+        "skilling:alchemy": 90
+      }
+    }
+  ]
+}

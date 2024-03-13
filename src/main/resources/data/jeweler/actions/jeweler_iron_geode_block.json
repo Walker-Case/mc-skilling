@@ -1,0 +1,21 @@
+{
+  "item": "jeweler:iron_geode_block",
+  "icon": {
+    "icon": "jeweler:iron_geode_block",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:break_block",
+      "xp": {
+        "jeweler:prospecting": 4
+      },
+      "requirements": {
+        "jeweler:prospecting": 40
+      }
+    }
+  ]
+}

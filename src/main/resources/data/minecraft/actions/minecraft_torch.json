@@ -1,0 +1,22 @@
+{
+  "item": "minecraft:torch",
+  "icon": {
+    "icon": "minecraft:torch",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.1
+      },
+      "requirements": {
+        "skilling:crafting": 1,
+        "skilling:mining": 1
+      }
+    }
+  ]
+}

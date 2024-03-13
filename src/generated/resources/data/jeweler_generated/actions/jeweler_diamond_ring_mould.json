@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "jeweler:prospecting": 75,
+        "skilling:smithing": 85
+      },
+      "xp": {
+        "jeweler:prospecting": 11.3,
+        "skilling:smithing": 11.3
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "jeweler:diamond_ring_mould",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "jeweler:diamond_ring_mould"
+}

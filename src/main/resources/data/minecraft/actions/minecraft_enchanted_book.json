@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:enchanted_book",
+  "icon": {
+    "icon": "minecraft:enchanted_book",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:fishing",
+      "xp": {
+        "skilling:fishing": 10.0
+      },
+      "requirements": {
+        "skilling:fishing": 20
+      }
+    }
+  ]
+}

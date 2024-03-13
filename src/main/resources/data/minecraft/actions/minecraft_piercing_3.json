@@ -1,0 +1,24 @@
+{
+  "item": "minecraft:piercing_3",
+  "icon": {
+    "icon": "minecraft:enchanted_book",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8,
+    "enchantments": {
+      "minecraft:piercing": 3
+    }
+  },
+  "actions": [
+    {
+      "action": "minecraft:enchanting",
+      "xp": {
+        "skilling:enchanting": 35.0
+      },
+      "requirements": {
+        "skilling:enchanting": 65
+      }
+    }
+  ]
+}

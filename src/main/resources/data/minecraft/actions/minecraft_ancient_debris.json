@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:ancient_debris",
+  "icon": {
+    "icon": "minecraft:ancient_debris",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:mining": 2.0
+      },
+      "requirements": {
+        "skilling:mining": 100
+      }
+    }
+  ]
+}

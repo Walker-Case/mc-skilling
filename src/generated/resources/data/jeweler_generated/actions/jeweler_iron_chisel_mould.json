@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "requirements": {
+        "jeweler:prospecting": 25,
+        "skilling:smithing": 35
+      },
+      "xp": {
+        "jeweler:prospecting": 3.8,
+        "skilling:smithing": 3.8
+      }
+    }
+  ],
+  "icon": {
+    "type": "",
+    "displayName": {
+      "name": "",
+      "translated": false
+    },
+    "icon": "jeweler:iron_chisel_mould",
+    "potion": "",
+    "scale": 8,
+    "skillbookVisible": true
+  },
+  "item": "jeweler:iron_chisel_mould"
+}

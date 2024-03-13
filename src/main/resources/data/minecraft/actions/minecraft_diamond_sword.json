@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:diamond_sword",
+  "icon": {
+    "icon": "minecraft:diamond_sword",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 1.0,
+        "skilling:smithing": 0.5
+      },
+      "requirements": {
+        "skilling:crafting": 70,
+        "skilling:combat": 90,
+        "skilling:smithing": 87
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 90
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "item": "minecraft:activator_rail",
+  "icon": {
+    "icon": "minecraft:activator_rail",
+    "type": "item",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:engineering": 2.7
+      },
+      "requirements": {
+        "skilling:engineering": 27
+      }
+    },
+    {
+      "action": "minecraft:interact_item",
+      "requirements": {
+        "skilling:engineering": 27
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "item": "minecraft:iron_leggings",
+  "icon": {
+    "icon": "minecraft:iron_leggings",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smithing",
+      "xp": {
+        "skilling:smithing": 0.4,
+        "skilling:crafting": 0.2
+      },
+      "requirements": {
+        "skilling:smithing": 35,
+        "skilling:crafting": 30
+      }
+    },
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 1.4,
+        "skilling:smithing": 0.7
+      },
+      "requirements": {
+        "skilling:crafting": 30,
+        "skilling:smithing": 35,
+        "skilling:combat": 10
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:combat": 30
+      }
+    }
+  ]
+}

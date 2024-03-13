@@ -1,0 +1,30 @@
+{
+  "item": "minecraft:cooked_beef",
+  "icon": {
+    "icon": "minecraft:cooked_beef",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:smoking",
+      "xp": {
+        "skilling:cooking": 3.0
+      },
+      "requirements": {
+        "skilling:cooking": 60
+      }
+    },
+    {
+      "action": "skilling:cooking",
+      "xp": {
+        "skilling:cooking": 6.0
+      },
+      "requirements": {
+        "skilling:cooking": 60
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:strong_healing",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:strong_healing",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 4.0
+      },
+      "requirements": {
+        "skilling:alchemy": 80
+      }
+    }
+  ]
+}

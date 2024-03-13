@@ -1,0 +1,28 @@
+{
+  "item": "minecraft:stone_axe",
+  "icon": {
+    "icon": "minecraft:stone_axe",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:crafting": 0.2
+      },
+      "requirements": {
+        "skilling:crafting": 10,
+        "skilling:forestry": 10
+      }
+    },
+    {
+      "action": "minecraft:equip",
+      "requirements": {
+        "skilling:forestry": 10
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "item": "minecraft:sweet_berries",
+  "icon": {
+    "icon": "minecraft:sweet_berries",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:mining",
+      "xp": {
+        "skilling:farming": 40.0
+      },
+      "requirements": {
+        "skilling:farming": 40
+      }
+    },
+    {
+      "action": "minecraft:place_block",
+      "xp": {
+        "skilling:farming": 40.0
+      },
+      "requirements": {
+        "skilling:farming": 40
+      }
+    },
+    {
+      "action": "minecraft:interact_entity",
+      "xp": {
+        "skilling:farming": 40.0
+      },
+      "requirements": {
+        "skilling:farming": 40
+      }
+    }
+  ]
+}

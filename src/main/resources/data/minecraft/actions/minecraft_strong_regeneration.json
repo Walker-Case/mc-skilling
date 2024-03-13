@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:strong_regeneration",
+  "icon": {
+    "icon": "minecraft:potion",
+    "type": "item",
+    "potion": "minecraft:strong_regeneration",
+    "skillbookVisible": true,
+    "scale": 10
+  },
+  "actions": [
+    {
+      "action": "minecraft:brewing",
+      "xp": {
+        "skilling:alchemy": 5.0
+      },
+      "requirements": {
+        "skilling:alchemy": 85
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:pumpkin_pie",
+  "icon": {
+    "icon": "minecraft:pumpkin_pie",
+    "type": "",
+    "potion": "",
+    "skillbookVisible": true,
+    "scale": 8
+  },
+  "actions": [
+    {
+      "action": "minecraft:crafting",
+      "xp": {
+        "skilling:cooking": 0.5
+      },
+      "requirements": {
+        "skilling:cooking": 5
+      }
+    }
+  ]
+}
